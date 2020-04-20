@@ -1,0 +1,7 @@
+# command script import ~/.lldb-scripts/reveal.py
+command script import /usr/local/opt/chisel/fblldb.py
+command alias poc expression -l objc -o --
+
+### Reveal LLDB commands support - DO NOT MODIFY
+command script import /Users/michael.kao/Library/Application\ Support/Reveal/RevealServerCommands.py
+###

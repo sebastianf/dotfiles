@@ -1,0 +1,107 @@
+# https://github.com/seebi/tmux-colors-solarized/blob/master/tmuxcolors-256.conf
+
+set -g @plugin 'tmux-plugins/tmux-copycat'
+# set -g @plugin 'tmux-plugins/tmux-open'
+
+set-option -g default-shell /usr/local/bin/fish
+set-option -g history-limit 4000
+
+## Status bar design
+# status line
+# set -g status-utf8 on
+set -g status-justify left
+set -g status-style bg=colour235,fg=colour31
+set -g status-interval 2
+
+# Info on left (I don't have a session display for now)
+set -g status-left ''
+set -g status-right 'ʕ•ᴥ•ʔ' # ಠᴗಠ 
+
+# window status
+setw -g window-status-format " #F#I:#W#F "
+setw -g window-status-current-format " #F#I:#W#F "
+# #number bg/fb #I title bg/fg
+setw -g window-status-format "#[fg=colour31]#[bg=235] #I #[bg=colour235]#[fg=colour31] #W "
+setw -g window-status-current-format "#[bg=colour38]#[fg=colour15] #I #[bg=colour31]#[fg=colour15] #W "
+setw -g window-status-current-style bg=colour0,fg=colour31
+setw -g window-status-style bg=green,fg=black,reverse
+
+# The panes {
+setw -g pane-border-format ""
+# setw -g pane-border-status top
+set -g pane-border-style bg=default,fg=colour234
+set -g pane-active-border-style bg=default,fg=colour31
+
+# }
+
+# The messages {
+
+set -g message-style bold,fg=colour232,bg=colour31
+
+# }
+
+# set window split
+bind-key v split-window -h
+bind-key b split-window
+
+# default window title colors
+set-window-option -g window-status-style fg=colour244,bg=default
+
+# pane number display
+set-option -g display-panes-active-colour colour38
+set-option -g display-panes-colour colour31
+# clock
+set-window-option -g clock-mode-colour colour31
+
+# use vi mode
+set-window-option -g mode-keys vi
+
+# Setup 'v' to begin selection as in Vim
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "pbcopy"
+
+# Update default binding of `Enter` to also use copy-pipe
+unbind -T copy-mode-vi Enter
+bind-key -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "pbcopy"
+
+# set -g default-Terminal "screen-256color"
+
+# run-shell ~/.tmux/plugins/tmux-open/open.tmux
+
+# more bindings
+bind | split-window -h -c "#{pane_current_path}"
+bind - split-window -v -c "#{pane_current_path}"
+bind c new-window -c "#{pane_current_path}"
+unbind '"'
+unbind %
+
+bind r source-file ~/.tmux.conf
+
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+bind s set-window-option synchronize-panes 
+
+set -g mouse on
+
+bind m \
+    set -g mouse on \;\
+    display 'Mouse: ON'
+
+bind M \
+    set -g mouse off \;\
+    display 'Mouse: OFF'
+
+# bind -n C-k clear-history
+
+# disables the bell
+set-window-option -g visual-bell off
+
+## join windows: <prefix> s, <prefix> j
+bind-key u command-prompt -p "join pane from:"  "join-pane -s '%%'"
+bind-key i command-prompt -p "send pane to:"  "join-pane -t '%%'"
+
+run '~/.tmux/plugins/tpm/tpm'
+

@@ -50,6 +50,19 @@ setup_gitconfig () {
 }
 
 
+setup_brew () {
+  if ! [ -f brew/brew-credentials.local.symlink ]
+  then
+    info 'setup brew credentials'
+    user ' - What is your github brew token?'
+    read -e git_token
+
+    sed -e "s/STRING/$git_token/g" brew/brew-credentials.local.symlink.example > brew/brew-credentials.local.symlink
+
+    success 'brew credentials'
+  fi
+}
+
 link_file () {
   local src=$1 dst=$2
 
@@ -138,6 +151,7 @@ install_dotfiles () {
 }
 
 setup_gitconfig
+setup_brew
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
