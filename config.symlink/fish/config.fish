@@ -19,8 +19,8 @@ eval (thefuck --alias | tr '\n' ';')
 # nvm 
 # bass source (brew --prefix nvm)/nvm.sh
 
-set -gx ZSH $HOME/.dotfiles
-set config_files $ZSH/**/*.fish
+set -gx FISH $HOME/.dotfiles
+set config_files $FISH/**/*.fish
 
 # load the path files
 for file in $config_files
