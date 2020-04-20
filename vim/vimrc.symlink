@@ -94,6 +94,7 @@ nnoremap Q :norm @q<CR>
 " write and quickly close a file
 noremap <leader>q :q<cr>
 nnoremap <leader>s :w<cr>
+noremap <leader>z :wq<cr>
 inoremap <leader>s <C-c>:w<cr>
 
 " replaces the word under cursor for whatever you want
@@ -137,6 +138,8 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme Tomorrow-Night-Eighties
 " colorscheme Tomorrow
+
+nnoremap <leader>g :w !gitup<CR><CR>
 
 
 " tab bar
