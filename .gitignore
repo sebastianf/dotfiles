@@ -9,4 +9,4 @@ config.symlink/configstore/*
 config.symlink/karabiner/automatic_backups
 
 .DS_Store
-.swp
+*.swp
