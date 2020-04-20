@@ -116,3 +116,8 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
+###############################################################################
+# iOS Simulator
+###############################################################################
+
+defaults write com.apple.iphonesimulator ShowSingleTouches 1
