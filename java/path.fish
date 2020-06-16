@@ -1,4 +1,8 @@
 # Environment Variables
-set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
 
 set -gx GROOVY_HOME /usr/local/opt/groovy/libexec
+
+set -gx JAVA_11_HOME (/usr/libexec/java_home -v11)
+set -gx JAVA_14_HOME (/usr/libexec/java_home -v14)
+
+set -gx JAVA_HOME $JAVA_11_HOME
