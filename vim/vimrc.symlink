@@ -162,7 +162,7 @@ au FileType groovy setl ts=2 sts=2 sw=2 expandtab
 au FileType yml setl ts=2 sts=2 sw=2 noet
 
 au BufRead,BufNewFile Podfile,Fastfile,*.podspec set filetype=ruby
-au BufRead,BufNewFile Jenkinsfile set filetype=groovy
+au BufRead,BufNewFile Jenkinsfile* set filetype=groovy
 
 au FileType make setl ts=2 sts=2 sw=2 noet
 
