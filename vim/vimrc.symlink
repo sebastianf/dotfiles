@@ -160,11 +160,12 @@ au FileType python setl ts=4 sts=4 sw=4 noet
 au FileType swift setl ts=2 sts=2 sw=2 noet
 au FileType groovy setl ts=2 sts=2 sw=2 expandtab
 au FileType yml setl ts=2 sts=2 sw=2 noet
+au FileType cmake setl ts=4 sts=4 sw=4 expandtab
+au FileType make setl ts=2 sts=2 sw=2 noet
 
 au BufRead,BufNewFile Podfile,Fastfile,*.podspec set filetype=ruby
 au BufRead,BufNewFile Jenkinsfile* set filetype=groovy
 
-au FileType make setl ts=2 sts=2 sw=2 noet
 
 " macvim
 set gfn=Ubuntu\ Mono\ derivative\ Powerline:h16
@@ -179,8 +180,8 @@ let NERDTreeIgnore = ['\.pyc$']
 let g:nerdtree_tabs_open_on_gui_startup=0
 
 " vim-markdown
-let g:vim_markdown_folding_disabled = 1
-let g:vim_markdown_conceal = 0
+" let g:vim_markdown_folding_disabled = 1
+" let g:vim_markdown_conceal = 0
 
 " Ripgrep command
 command! -bang -nargs=* Rg

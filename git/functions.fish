@@ -1,4 +1,4 @@
-function g 
+function git 
 	if count $argv > /dev/null
 		command git $argv
 	else

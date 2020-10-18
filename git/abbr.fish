@@ -1,2 +1,4 @@
-abbr -a gb fzf-git-branch
+abbr -a  g git
+abbr -a gu gitup
+abbr -a gbr fzf-git-branch
 abbr -a gco fzf-git-checkout
