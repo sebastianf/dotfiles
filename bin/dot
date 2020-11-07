@@ -38,20 +38,27 @@ while test $# -gt 0; do
 	shift
 done
 
-export ZSH=$HOME/.dotfiles
+export DOTHOME=$HOME/.dotfiles
 
 # Set macOS defaults
-$ZSH/macos/set-defaults.sh
+# $DOTHOME/macos/set-defaults.sh
 
 # Install homebrew
-# $ZSH/homebrew/install.sh 2>&1
+$DOTHOME/homebrew/install.sh 2>&1
 
 # Upgrade homebrew
-#echo "› brew update"
-#brew update
+# echo "› brew update"
+# brew update
+
+# brewup
+# echo "› brewup"
+# brew update
+# brew upgrade
+# brew cleanup
+# brew doctor'
 
 # Install software
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+# curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 
-echo "› $ZSH/script/install"
+# echo "› $DOTHOME/script/install"
 # $ZSH/script/install
