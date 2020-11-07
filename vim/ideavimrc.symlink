@@ -1,4 +1,0 @@
-set surround
-set multiple-cursors
-
-map \r :action ReformatCode<CR>

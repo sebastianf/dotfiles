@@ -1,8 +1,7 @@
 # dotfiles
 
-I forked Zach Holman's dotfiles which use a powerful jet simplistic way of setup.
-Currently I use the fish shell, which is why I had to port Holman's project from 
-zsh to fish.
+I forked [Miiha](https://github.com/Miiha)'s fork from Zach Holman's dotfiles which use a powerful jet simplistic way of setup.
+For the fish shell, Miiiha had to port Holman's project from zsh to fish.
 
 If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
@@ -21,7 +20,7 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
-[Fork it](https://github.com/Miiha/dotfiles), remove what you don't
+[Fork it](https://github.com/sebastian/dotfiles), remove what you don't
 use, and build on what you do use.
 
 ## components
@@ -44,10 +43,10 @@ There's a few special files in the hierarchy.
 
 ## install
 
-Run this:
+Fork my git repo and clone it to `~/.dotfiles` and then
+run this:
 
 ```sh
-git clone https://github.com/Miiha/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -68,9 +67,9 @@ said, I do use this as _my_ dotfiles, so there's a good chance I may break
 something if I forget to make a check for a dependency.
 
 If you're brand-new to the project and run into any blockers, please
-[open an issue](https://github.com/Miiha/dotfiles) on this repository
+[open an issue](https://github.com/sebastianf/dotfiles) on this repository
 and I'd love to get it fixed for you!
 
 ## thanks
 
-I forked [Zach Holmans](https://github.com/holman)' excellent [dotfiles](https://github.com/holman/dotfiles).
+[Miiha](https://github.com/Miiha)'s [dotfiles](https://github.com/miiha/dotfiles) and [Zach Holmans](https://github.com/holman)' excellent [dotfiles](https://github.com/holman/dotfiles).

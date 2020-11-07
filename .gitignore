@@ -1,12 +1,10 @@
 git/gitconfig.local.symlink
-brew/brew-credentials.local.symlink
 
 config.symlink/fisher/github.com
 config.symlink/fisherman
 config.symlink/nvm
 config.symlink/configstore/*
 
-config.symlink/karabiner/automatic_backups
 
 .DS_Store
 *.swp
