@@ -32,10 +32,12 @@ quotepath = false
 	default = simple
 [pull]
 	rebase = true
-[user]
-	name = Sebastian Friedrich
-	email = sebastian.friedrich@mac.com
-[github]
-	user = sebastianf
+
+# https://www.motowilliams.com/conditional-includes-for-git-config
+# https://blog.thomasheartman.com/posts/modularizing-your-git-config-with-conditional-includes
+[includeIf "gitdir:~/"]
+  path = ~/.gitconfig-personal
+[includeIf "gitdir:~/dev/work/"]
+  path = ~/.gitconfig-work
 
 
