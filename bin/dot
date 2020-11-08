@@ -38,7 +38,6 @@ while test $# -gt 0; do
 	shift
 done
 
-export DOTHOME=$HOME/.dotfiles
 
 # Set macOS defaults
 # $DOTHOME/macos/set-defaults.sh
