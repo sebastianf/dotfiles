@@ -51,14 +51,14 @@ $DOTHOME/homebrew/install.sh 2>&1
 # brew update
 
 # brewup
-# echo "› brewup"
-# brew update
-# brew upgrade
-# brew cleanup
-# brew doctor'
+echo "› brewup"
+brew update
+brew upgrade
+brew cleanup
+brew doctor
 
 # Install software
-# curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 
 # echo "› $DOTHOME/script/install"
-# $ZSH/script/install
+# $DOTHOME/script/install

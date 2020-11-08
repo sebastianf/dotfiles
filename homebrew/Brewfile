@@ -1,0 +1,97 @@
+tap "homebrew/bundle"
+tap 'caskroom/cask'
+tap "homebrew/core"
+
+brew "mas"
+brew "git"
+brew "git-town"
+cask 'java'
+brew 'zsh'
+brew 'fish'
+brew "carthage"
+brew "gradle"
+brew 'fzf'
+brew "tree"
+brew "git-flow"
+brew "youtube-dl"
+brew 'fastlane'
+brew 'ImageMagick'
+brew 'ghostscript'
+cask "charles"
+cask "firefox"
+cask "jdownloader"
+cask "skype"
+cask "tunnelblick"
+cask "vlc"
+cask 'google-chrome'
+cask 'tunnelblick'
+cask 'hazel'
+cask 'bartender'
+cask 'Reveal'
+cask 'transmit'
+cask 'Colloquy'
+cask 'istat-menus'
+cask 'carbon-copy-cloner'
+cask 'cardhop'
+cask 'fantastical'
+cask 'chatology'
+cask '1password'
+cask 'dropbox'
+cask 'devonthink-pro-office'
+cask 'iterm2'
+cask 'launchbar'
+cask 'skype-for-business'
+cask 'onedrive'
+cask 'caret'
+cask 'daisyDisk'
+cask 'provisionql'
+cask 'keepingyouawake'
+cask 'bettertouchtool'
+cask 'zeplin'
+cask 'db-browser-for-sqlite'
+cask 'keybase'
+cask 'mailmate'
+cask 'marked'
+cask 'shortcat'
+cask 'slack'
+cask 'typora'
+cask 'waltr'
+cask 'whatsapp'
+cask 'wwdc'
+cask 'zoomus'
+cask 'brave-browser'
+cask 'figma' # Tool to provide Designs
+cask 'karabiner-elements' # Tool for key mapping e.g. caps lock as esc
+
+cask 'fork'
+cask 'sourcetree'
+cask 'gitup'
+cask 'gitfox'
+
+cask 'sherlock'
+cask 'dash'
+cask 'visual-studio-code'
+cask 'charles'
+cask 'paw'
+cask 'Kaleidoscope'
+cask "pusher"
+cask 'asset-catalog-tinkerer'
+
+mas "Microsoft OneNote", id: 784801555
+mas "Moom", id: 419330170
+mas "Reeder", id: 880001334
+mas "Things3", id: 904280696
+mas "Tyme2", id: 1063996724
+mas "Uberlayer", id: 510139938
+mas "Tweetbot", id: 1384080005
+mas "Twitter", id: 1482454543
+mas "The Unarchiver", id: 425424353
+mas "Smart JSON Editor", id: 1268962404
+mas "MoneyMoney", id: 872698314
+mas "Kindle", id: 405399194
+mas "Jayson", id: 1189824719
+mas "Day One", id: 1055511498
+mas "Drafts", id: 1435957248
+mas "GoodNotes 5", id: 1444383602
+mas "Soulver 2", id: 413965349
+mas "Elmedia Video Player", id: 1044549675
