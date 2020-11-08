@@ -1,0 +1,3 @@
+[submodule "/Users/sebastianf/.dotfiles/iTerm2-Color-Schemes"]
+	path = /Users/sebastianf/.dotfiles/iTerm2-Color-Schemes
+	url = git@github.com:mbadolato/iTerm2-Color-Schemes.git
