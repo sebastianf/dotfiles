@@ -60,8 +60,8 @@ cask 'whatsapp'
 cask 'wwdc'
 cask 'zoomus'
 cask 'brave-browser'
-cask 'figma' # Tool to provide Designs
-cask 'karabiner-elements' # Tool for key mapping e.g. caps lock as esc
+cask 'figma'                                            # Tool to provide Designs
+cask 'karabiner-elements'                               # Tool for key mapping e.g. caps lock as esc
 
 cask 'fork'
 cask 'sourcetree'

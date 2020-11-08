@@ -32,5 +32,10 @@ quotepath = false
 	default = simple
 [pull]
 	rebase = true
+[user]
+	name = Sebastian Friedrich
+	email = sebastian.friedrich@mac.com
+[github]
+	user = sebastianf
 
 
