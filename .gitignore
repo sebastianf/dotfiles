@@ -1,10 +1,4 @@
 git/gitconfig.local.symlink
 
-config.symlink/fisher/github.com
-config.symlink/fisherman
-config.symlink/nvm
-config.symlink/configstore/*
-
-
 .DS_Store
 *.swp
