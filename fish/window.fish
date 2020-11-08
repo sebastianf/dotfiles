@@ -13,6 +13,6 @@ echo '   ___======____=---=)
            \V)     \_) \   JJ J\)
                        /J JT\JJJJ)
                        (JJJ| \UUU)
-                        (UU)' | lolcat
+                        (UU)'
 end
 
