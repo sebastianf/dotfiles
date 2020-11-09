@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 tap "homebrew/core"
+tap "homebrew/cask-versions"
 
 brew "mas"
 brew "git"
@@ -86,7 +87,7 @@ mas "Uberlayer", id: 510139938
 mas "Tweetbot", id: 1384080005
 mas "Twitter", id: 1482454543
 mas "The Unarchiver", id: 425424353
-mas "Smart JSON Editor", id: 1268962404
+# mas "Smart JSON Editor", id: 1268962404 #disable it because the app add whitespaces and the the diff is huge
 mas "MoneyMoney", id: 872698314
 mas "Kindle", id: 405399194
 mas "Jayson", id: 1189824719
