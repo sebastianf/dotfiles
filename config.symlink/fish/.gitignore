@@ -2,4 +2,3 @@
 !config.fish
 !fish_plugins
 !.gitignore
-!functions/fish_prompt.fish
