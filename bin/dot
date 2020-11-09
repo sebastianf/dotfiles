@@ -62,3 +62,5 @@ echo "› Install software"
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 echo "› run install"
 $DOTHOME/script/install
+echo "› run fisher update"
+fisher update
