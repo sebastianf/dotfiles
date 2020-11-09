@@ -40,7 +40,7 @@ done
 
 
 # Set macOS defaults
-# $DOTHOME/macos/set-defaults.sh
+$DOTHOME/macos/set-defaults.sh
 
 # Install homebrew
 $DOTHOME/homebrew/install.sh 2>&1

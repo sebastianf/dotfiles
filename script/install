@@ -6,17 +6,6 @@ set -e
 
 cd "$(dirname $0)"/..
 
-# Install Ruby gems
-# echo "› bundle install"
-# gem/bundle install
-
-# Run Homebrew through the Brewfile
-# echo "› brew bundle"
-# homebrew/brew bundle
-# Turn off brew analytics
-# https://docs.brew.sh/Analytics
-# brew analytics off
-
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 find . -name install.fish | while read installer ; do fish "${installer}" ; done
