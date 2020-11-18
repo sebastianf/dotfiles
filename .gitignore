@@ -1,6 +1,7 @@
 git/gitconfig.local.symlink
 git/gitconfig-personal.symlink
 git/gitconfig-work.symlink
+config.symlink/nvm
 
 .DS_Store
 *.swp
