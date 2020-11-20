@@ -54,13 +54,21 @@ echo "› brew update"
 brew update
 echo "› brew upgrade"
 brew upgrade
-echo "› brew cleanup"
-brew cleanup
-echo "› brew doctor"
-brew doctor
 echo "› Install software"
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 echo "› run install"
 $DOTHOME/script/install
+echo "› run brew bundle install"
+cd $DOTHOME/homebrew/
+brew bundle install
+echo "› run brew bundle cleanup"
+cd $DOTHOME/homebrew/
+brew bundle cleanup
+echo "› run softwareupdate"
+sudo softwareupdate -ia --verbose
+echo "› brew cleanup"
+brew cleanup
+echo "› brew doctor"
+brew doctor
 echo "› run fisher update"
 fisher update

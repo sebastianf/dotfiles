@@ -1,98 +1,165 @@
 tap "homebrew/bundle"
-tap 'homebrew/cask'
-tap "homebrew/core"
+tap "homebrew/cask"
 tap "homebrew/cask-versions"
-
-brew "mas"
-brew "git"
-brew "git-town"
-cask 'java'
-brew 'zsh'
-brew 'fish'
+tap "homebrew/core"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Library for command-line editing
+brew "readline"
+# Decentralized dependency manager for Cocoa
 brew "carthage"
-brew "gradle"
-brew 'fzf'
-brew "tree"
+# Collection of LLDB commands to assist debugging iOS apps
+brew "chisel"
+# Strongly specified, highly compatible implementation of Markdown
+brew "cmark"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# YAML Parser
+brew "libyaml"
+# Easiest way to build and release mobile apps
+brew "fastlane"
+# Generic library support script
+brew "libtool"
+# Manage compile and link flags for libraries
+brew "pkg-config"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
+# Distributed revision control system
+brew "git"
+# Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
+# High-level command-line interface for Git
+brew "git-town"
+# Development kit for the Java programming language
+brew "openjdk"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# X.509 and CMS library
+brew "libksba"
+# Mac App Store command-line interface
+brew "mas"
+# DNS benchmark utility
+brew "namebench"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Display and control your Android device
+brew "scrcpy"
+# Change macOS audio source from the command-line
+brew "switchaudio-osx"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Download YouTube videos from the command-line
 brew "youtube-dl"
-brew 'fastlane'
-brew 'ImageMagick'
-brew 'ghostscript'
+# General-purpose lossless data-compression library
+brew "zlib"
+# UNIX shell (command interpreter)
+brew "zsh"
+cask "1password"
+cask "android-platform-tools"
+cask "arq"
+cask "asset-catalog-tinkerer"
+cask "bartender"
+cask "bettertouchtool"
+cask "brave-browser"
+cask "caffeine"
+cask "carbon-copy-cloner"
+cask "cardhop"
+cask "caret"
 cask "charles"
+cask "chatology"
+cask "colloquy"
+cask "daisydisk"
+cask "dash"
+cask "db-browser-for-sqlite"
+cask "devonthink-pro-office"
+cask "dropbox"
+cask "fantastical"
+cask "fastlane"
+cask "figma"
 cask "firefox"
+cask "fork"
+cask "gitfox"
+# cask "gitkraken"
+cask "gitup"
+cask "google-chrome"
+cask "gpg-suite-pinentry"
+cask "hazel"
+cask "istat-menus"
+cask "iterm2"
+cask "java"
+cask "java8"
 cask "jdownloader"
-cask "skype"
-cask "tunnelblick"
-cask "vlc"
-cask 'google-chrome'
-cask 'tunnelblick'
-cask 'hazel'
-cask 'bartender'
-cask 'Reveal'
-cask 'transmit'
-cask 'Colloquy'
-cask 'istat-menus'
-cask 'carbon-copy-cloner'
-cask 'cardhop'
-cask 'fantastical'
-cask 'chatology'
-cask '1password'
-cask 'dropbox'
-cask 'devonthink-pro-office'
-cask 'iterm2'
-cask 'launchbar'
-cask 'skype-for-business'
-cask 'onedrive'
-cask 'caret'
-cask 'daisyDisk'
-cask 'provisionql'
-cask 'keepingyouawake'
-cask 'bettertouchtool'
-cask 'zeplin'
-cask 'db-browser-for-sqlite'
-cask 'keybase'
-cask 'mailmate'
-cask 'marked'
-cask 'shortcat'
-cask 'slack'
-cask 'typora'
-cask 'waltr'
-cask 'whatsapp'
-cask 'wwdc'
-cask 'zoomus'
-cask 'brave-browser'
-cask 'figma'                                            # Tool to provide Designs
-cask 'karabiner-elements'                               # Tool for key mapping e.g. caps lock as esc
-
-cask 'fork'
-cask 'sourcetree'
-cask 'gitup'
-cask 'gitfox'
-
-cask 'sherlock'
-cask 'dash'
-cask 'visual-studio-code'
-cask 'charles'
-cask 'paw'
-cask 'Kaleidoscope'
+cask "kaleidoscope"
+cask "karabiner"
+cask "karabiner-elements"
+cask "keepingyouawake"
+cask "keybase"
+cask "launchbar"
+cask "mailmate"
+cask "marked"
+# cask "mplayerx"
+cask "onedrive"
+cask "paw"
+cask "provisionql"
 cask "pusher"
-cask 'asset-catalog-tinkerer'
-
-mas "Microsoft OneNote", id: 784801555
-mas "Moom", id: 419330170
-mas "Reeder 5", id: 1529448980
-mas "Things3", id: 904280696
-mas "Tyme2", id: 1063996724
-mas "Uberlayer", id: 510139938
-mas "Tweetbot", id: 1384080005
-mas "Twitter", id: 1482454543
-mas "The Unarchiver", id: 425424353
-# mas "Smart JSON Editor", id: 1268962404 #disable it because the app add whitespaces and the the diff is huge
-mas "MoneyMoney", id: 872698314
-mas "Kindle", id: 405399194
-mas "Jayson", id: 1189824719
+cask "reveal"
+cask "sherlock"
+cask "shortcat"
+cask "skype"
+cask "skype-for-business"
+cask "slack"
+cask "sourcetree"
+# cask "spillo" 
+# cask "sublime-text"
+# cask "tower"
+cask "transmit"
+# cask "tunnelblick"
+cask "typora"
+cask "visual-studio-code"
+cask "vlc"
+cask "waltr"
+cask "whatsapp"
+cask "wwdc"
+cask "yammer"
+cask "zeplin"
+cask "zoomus"
+mas "Apple Configurator 2", id: 1037126344
+# mas "Bear", id: 1091189122
+# mas "Color Picker", id: 641027709
+# mas "ColorDrops", id: 1277028218
 mas "Day One", id: 1055511498
 mas "Drafts", id: 1435957248
-mas "GoodNotes 5", id: 1444383602
-mas "Soulver 2", id: 413965349
+# mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Elmedia Video Player", id: 1044549675
+# mas "feedly", id: 865500966
+mas "GoodNotes", id: 1444383602
+mas "Jayson", id: 1189824719
+mas "Jira", id: 1475897096
+mas "Kindle", id: 405399194
+mas "Microsoft OneNote", id: 784801555
+mas "MindNode", id: 1289197285
+mas "MoneyMoney", id: 872698314
+mas "Moom", id: 419330170
+mas "Reeder", id: 1529448980
+mas "Soulver", id: 413965349
+# mas "SubEthaEdit", id: 728530824
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+# mas "ToothFairy", id: 1191449274
+mas "Transporter", id: 1450874784
+mas "Tweetbot", id: 1384080005
+mas "Twitter", id: 1482454543
+mas "Tyme 2", id: 1063996724
+mas "Uberlayer", id: 510139938
