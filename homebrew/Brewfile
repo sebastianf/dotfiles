@@ -80,7 +80,7 @@ cask 'asset-catalog-tinkerer'
 
 mas "Microsoft OneNote", id: 784801555
 mas "Moom", id: 419330170
-mas "Reeder", id: 880001334
+mas "Reeder 5", id: 1529448980
 mas "Things3", id: 904280696
 mas "Tyme2", id: 1063996724
 mas "Uberlayer", id: 510139938
