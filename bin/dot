@@ -66,8 +66,9 @@ cd $DOTHOME/homebrew/;
 brew bundle cleanup
 echo "› run softwareupdate"
 sudo softwareupdate -ia --verbose
+mas upgrade
 echo "› brew cleanup"
-brew cleanup
+brew cleanup --force
 echo "› brew doctor"
 brew doctor
 echo "› run fisher update"
