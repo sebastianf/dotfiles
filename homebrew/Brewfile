@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "miiha/formulae"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -50,14 +51,20 @@ brew "imagemagick"
 brew "libksba"
 # Mac App Store command-line interface
 brew "mas"
+# Commandline tool for Things
+brew "Miiha/formulae/things-cli"
 # DNS benchmark utility
 brew "namebench"
+# Shows an ascii apple and information about the system
+brew "neofetch"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Display and control your Android device
 brew "scrcpy"
 # Change macOS audio source from the command-line
 brew "switchaudio-osx"
+# Shorter version of the man pages with some examples
+brew "tldr"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Download YouTube videos from the command-line
