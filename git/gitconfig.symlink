@@ -41,3 +41,7 @@ quotepath = false
   path = ~/.gitconfig-work
 
 
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false

@@ -77,6 +77,8 @@ cask "1password"
 cask "android-platform-tools"
 cask "arq"
 cask "asset-catalog-tinkerer"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 cask "bartender"
 cask "bettertouchtool"
 cask "brave-browser"
@@ -90,7 +92,7 @@ cask "colloquy"
 cask "daisydisk"
 cask "dash"
 cask "db-browser-for-sqlite"
-cask "devonthink-pro-office"
+cask "devonthink"
 cask "dropbox"
 cask "fantastical"
 cask "fastlane"
@@ -102,6 +104,7 @@ cask "gitfox"
 cask "gitup"
 cask "google-chrome"
 cask "gpg-suite-pinentry"
+cask "home-assistant"
 cask "hazel"
 cask "istat-menus"
 cask "iterm2"
@@ -121,6 +124,7 @@ cask "onedrive"
 cask "paw"
 cask "provisionql"
 cask "pusher"
+cask "raspberry-pi-imager"
 cask "reveal"
 cask "sherlock"
 cask "shortcat"
@@ -129,8 +133,9 @@ cask "skype-for-business"
 cask "slack"
 cask "sourcetree"
 # cask "spillo" 
-# cask "sublime-text"
+cask "sublime-text"
 # cask "tower"
+cask "transmission"
 cask "transmit"
 # cask "tunnelblick"
 cask "typora"
@@ -141,7 +146,8 @@ cask "whatsapp"
 cask "wwdc"
 cask "yammer"
 cask "zeplin"
-cask "zoomus"
+cask "zoom"
+mas "1Blocker for Safari", id: 1107421413
 mas "Apple Configurator 2", id: 1037126344
 # mas "Bear", id: 1091189122
 # mas "Color Picker", id: 641027709
@@ -153,7 +159,7 @@ mas "Elmedia Video Player", id: 1044549675
 # mas "feedly", id: 865500966
 mas "GoodNotes", id: 1444383602
 mas "Jayson", id: 1189824719
-mas "Jira", id: 1475897096
+# mas "Jira", id: 1475897096
 mas "Kindle", id: 405399194
 mas "Microsoft OneNote", id: 784801555
 mas "MindNode", id: 1289197285
