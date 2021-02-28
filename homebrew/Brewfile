@@ -55,7 +55,7 @@ brew "mas"
 brew "Miiha/formulae/things-cli"
 # DNS benchmark utility
 brew "namebench"
-# Shows an ascii apple and information about the system
+# Fast, highly customisable system info script
 brew "neofetch"
 # Development kit for the Java programming language
 brew "openjdk@11"
@@ -63,7 +63,7 @@ brew "openjdk@11"
 brew "scrcpy"
 # Change macOS audio source from the command-line
 brew "switchaudio-osx"
-# Shorter version of the man pages with some examples
+# Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
@@ -73,81 +73,130 @@ brew "youtube-dl"
 brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
+brew "miiha/formulae/things-cli"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Android SDK component
 cask "android-platform-tools"
+# Multi-cloud backup application
 cask "arq"
 cask "asset-catalog-tinkerer"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Menu bar icon organizer
 cask "bartender"
+# Tool to customize input devices and automate computer systems
 cask "bettertouchtool"
+# Web browser focusing on privacy
 cask "brave-browser"
+# Utility that prevents the system from going to sleep
 cask "caffeine"
+# Hard disk backup and cloning utility
 cask "carbon-copy-cloner"
+# Contacts manager
 cask "cardhop"
 cask "caret"
+# Web debugging Proxy application
 cask "charles"
+# Chat manager and message search software
 cask "chatology"
 cask "colloquy"
+# Disk space visualizer
 cask "daisydisk"
+# API documentation browser and code snippet manager
 cask "dash"
+# Browser for SQLite databases
 cask "db-browser-for-sqlite"
 cask "devonthink"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "fantastical"
 cask "fastlane"
 cask "figma"
+# Web browser
 cask "firefox"
+# GIT client
 cask "fork"
+# Git client
 cask "gitfox"
 # cask "gitkraken"
+# Git interface focused on visual interaction
 cask "gitup"
-cask "google-chrome"
+# Pinentry GUI for GPG Suite
 cask "gpg-suite-pinentry"
-cask "home-assistant"
+# Automated organization
 cask "hazel"
+# Companion app for Home Assistant home automation software
+cask "home-assistant"
+# System monitoring app
 cask "istat-menus"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 cask "java"
 cask "java8"
 cask "jdownloader"
+# Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
 cask "karabiner"
+# Keyboard customizer
 cask "karabiner-elements"
+# Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# End-to-end encryption software
 cask "keybase"
+# Productivity tool
 cask "launchbar"
+# IMAP email client
 cask "mailmate"
+# Previewer for Markdown, MultiMarkdown and other text markup languages
 cask "marked"
 # cask "mplayerx"
+# Cloud storage client
 cask "onedrive"
+# HTTP client that helps testing and describing APIs
 cask "paw"
 cask "provisionql"
 cask "pusher"
 cask "raspberry-pi-imager"
+# Runtime view debugger
 cask "reveal"
 cask "sherlock"
 cask "shortcat"
+# Video chat, voice call and instant messaging application
 cask "skype"
+# Microsofts instant messaging enterprise software
 cask "skype-for-business"
+# Team communication and collaboration software
 cask "slack"
+# Graphical client for Git version control
 cask "sourcetree"
 # cask "spillo" 
+# Text editor for code, markup and prose
 cask "sublime-text"
 # cask "tower"
+# Open-source BitTorrent client
 cask "transmission"
+# File transfer application
 cask "transmit"
 # cask "tunnelblick"
+# Configurable document editor that supports Markdown
 cask "typora"
+# Open-source code editor
 cask "visual-studio-code"
+cask "vivaldi"
+# Multimedia player
 cask "vlc"
 cask "waltr"
+# Desktop client for WhatsApp
 cask "whatsapp"
+# Allows access to WWDC livestreams, videos and sessions
 cask "wwdc"
 cask "yammer"
+# Share, organize and collaborate on designs
 cask "zeplin"
+# Video communication and virtual meeting platform
 cask "zoom"
-mas "1Blocker for Safari", id: 1107421413
+mas "1Blocker", id: 1107421413
 mas "Apple Configurator 2", id: 1037126344
 # mas "Bear", id: 1091189122
 # mas "Color Picker", id: 641027709
@@ -161,10 +210,13 @@ mas "GoodNotes", id: 1444383602
 mas "Jayson", id: 1189824719
 # mas "Jira", id: 1475897096
 mas "Kindle", id: 405399194
+mas "Mactracker", id: 430255202
 mas "Microsoft OneNote", id: 784801555
 mas "MindNode", id: 1289197285
 mas "MoneyMoney", id: 872698314
 mas "Moom", id: 419330170
+mas "MQTT Explorer", id: 1455214828
+mas "OpenIn", id: 1547147101
 mas "Reeder", id: 1529448980
 mas "Soulver", id: 413965349
 # mas "SubEthaEdit", id: 728530824
